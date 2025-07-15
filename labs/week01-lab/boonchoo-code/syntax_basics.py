@@ -77,7 +77,11 @@ print("a =", a, "b =", b, "c =", c)
 # Complete the following assignments:
 
 # String variable containing your favorite color
+<<<<<<< HEAD
 favorite_color = "xx"
+=======
+favorite_color = 
+>>>>>>> upstream/main
 
 # Integer variable with the current year
 current_year = 
