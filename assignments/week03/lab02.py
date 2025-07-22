@@ -24,9 +24,9 @@ if entered_pin == pin:
 
         if choice == "3":
            amount = float(input("Deposit amount:"))
-        if amount < 0:
+           if amount < 0:
             print("Cannot Depos less than 0")
-        else:
+           else:
             balance = balance + amount
             print("Your balance now =",balance)
         if choice == "4":
