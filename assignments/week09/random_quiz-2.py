@@ -58,7 +58,7 @@ def get_divisibility_hint(number):
 
 def get_range_hint(number, current_min=1, current_max=100):
     # Return narrowed range around the number
-    return f"HINT: The narrowed range around the number is {range(number - 12, number +12}"
+    return f"HINT: The narrowed range around the number is {range(number - 12, number +12)}"
 
 def get_thefirst_digit_hint(number):
     # Retun the first digit of the number
@@ -72,7 +72,7 @@ print("=== Enhanced GUESSING GAME ===")
 print("Guess my number between 1 and 100!")
 print("You have unlimited attempt.")
 
-while True
+while True:
     guess_number = int(input("Attemp {attempt} ... - Enter your guess"))
 
 

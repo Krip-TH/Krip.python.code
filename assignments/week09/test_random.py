@@ -8,13 +8,13 @@ def test_random():
     guess_number = input("what is your guess number?:")
 
     if random_number == guess_number:
-    print("Congratulations")
+     print("Congratulations")
 
     if random_number < guess_number:
-    print("Too much")
+     print("Too much")
 
     if random_number > guess_number:
-    print("Too low")
+      print("Too low")
 
     print(random_number)
     
