@@ -56,5 +56,9 @@
     "github.copilot.advanced": {
         "inlineSuggest.enableFor": {}
     }
+<<<<<<< HEAD
 >>>>>>> upstream
+=======
+>>>>>>> upstream/main
+>>>>>>> 286410f8ca0b02c139d79bcd557b95985fb1a63b
 }
