@@ -33,5 +33,5 @@ MyRectangle = Rectangle(10, 2)
 print(MyRectangle.getArea())
 
 MyRectangle.getPerimeter()
-print(MyRetangle.isSquare())
+print(MyRectangle.isSquare())
     
