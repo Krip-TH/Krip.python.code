@@ -37,6 +37,6 @@ class Circle:
         return 2 * 3.1416 * self.radius
     
 MyCircle = Circle(10)
-print(myCircle.gerArea())
-print(myCircle.getPerimeter())
+print(MyCircle.gerArea())
+print(MyCircle.getPerimeter())
                   
