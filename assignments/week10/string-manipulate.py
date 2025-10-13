@@ -47,3 +47,25 @@ Transformations:
 USE: len(), split(), count(), upper(), lower(), title(), slicing operations
 
 """
+
+string = "The Quick Brown Fox Jumps Over The Laz Dog"
+
+print("=== TEXT ANALYSIS REPORT ===")
+print("Chatacter Analysis:")
+print("- Total characters: %d (with spaces), %d (without spaces)" % (len(string), len(string)-string.count(" ")))
+print(string.count(""))
+
+strLower = string.lower ()
+vowels = strLower.count("a") + strLower.count("e") + strLower.count
+("i") + strLower.count("o") + strLower.count("u")
+vowelsStr = ""
+for char in strLower:
+    if char in ['a','e','i','o','u']:
+        vowelsStr += char + ","
+
+print("- Vowels: %d (%s)" % (vowels, vowelsStr))
+print("- Consonalts: %d" %  (len(string)-string.count(" ")-vowels))
+
+words = string.split()
+print("Word Analysis:")
+print("-Total words:" , len(words))
